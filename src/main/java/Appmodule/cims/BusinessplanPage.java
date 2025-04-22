@@ -22,7 +22,7 @@ public class BusinessplanPage extends LoginPage{
 	@SuppressWarnings("deprecation")
 	WebDriverWait wait = new WebDriverWait(driver,30);
 	//Login-xpath
-	@FindBy(id = "userName-1")
+	@FindBy(id = "userName-2")
 	WebElement username;
 	@FindBy(id = "userPassword")
 	WebElement password;
