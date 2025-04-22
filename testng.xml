@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="10" name="Test">
+    <classes>
+      <class name="appmodule_test.cims.CooperativeAppDetailTest"/>
+      <class name="appmodule_test.cims.CoopChangeindetailTest1"/>
+      <class name="appmodule_test.cims.NewMemberApplicationdetailTest"/>
+      <class name="appmodule_test.cims.MemberchangeinDetailTest1"/>
+      <class name="appmodule_test.cims.BusinessPlanTest"/>
+      <class name="appmodule_test.cims.OfficeVisitdetailTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

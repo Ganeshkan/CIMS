@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="appmodule_test.cims.CooperativeAppDetailTest">
+        <methods>
+          <include name="CoopApplicationDetails"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- appmodule_test.cims.CooperativeAppDetailTest -->
+      <class name="appmodule_test.cims.CoopChangeindetailTest1">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="CoopApplicationChangeInDetails"/>
+        </methods>
+      </class> <!-- appmodule_test.cims.CoopChangeindetailTest1 -->
+      <class name="appmodule_test.cims.MemberchangeinDetailTest1">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="MemberChangeInDetailFlow"/>
+        </methods>
+      </class> <!-- appmodule_test.cims.MemberchangeinDetailTest1 -->
+      <class name="appmodule_test.cims.NewMemberApplicationdetailTest">
+        <methods>
+          <include name="NewMemApp"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- appmodule_test.cims.NewMemberApplicationdetailTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
