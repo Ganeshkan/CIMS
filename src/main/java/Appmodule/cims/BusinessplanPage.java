@@ -248,7 +248,7 @@ public class BusinessplanPage extends LoginPage{
 		wait.until(ExpectedConditions.elementToBeClickable(Status)).click();
 		Thread.sleep(1000);
 		Inprogress.click();Thread.sleep(2000);
-		comments.sendKeys("Verified and status changed");
+		comments.sendKeys("Verified and status changed-001");
 		savenotes.click();TimeUnit.SECONDS.sleep(15);
 		//History-tab
 		historytab.click();Thread.sleep(1000);
